@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-div{
+    text-align: center;
+    position: relative;
+}
+
+.front-image{
+    width: 100%;
+    height: auto;
+}
+
+.navi{
+    background-color: black;
+    width: 80%;
+    max-height: 100px;
+    display: flex;
+    color: rgb(107, 107, 104);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    left: 10%;
+}
+
+.navi-item{
+    list-style-type: none;
+    margin: auto;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.navi-item:hover{
+    color: white;
+}
+.btn{
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    box-shadow: 1px 2px 5px 5px rgb(222, 245, 22);
+}
+
+.logo-img{
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.logo-img:hover{
+    box-shadow: 2px 2px 5px 7px rgb(255, 251, 0);
+    border-radius: 50%;
+    transform: rotate(1turn);
+}
+
+.search-img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .navi-item{
+        display: none;
+    }
+    .search-img{
+        display: none;
+    }
+    .logo-img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.main-content{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+}
+
+.main-content-heading{
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.main-content-para{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (min-width:400px) and (max-width:1700px){
+    .main-content{
+        top: 35%;
+        left: 29%;
+    }
+    
+    .main-content-heading{
+        font-weight: 800;
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    
+    .main-content-para{
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+.btn-latest{
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 800;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.btn-latest:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: 1px 5px 5px 5px blue;
+}
+
+
+.first-mid-div{
+    text-align: center;
+}
+
+.book{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lost{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cake{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sheep{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.news-para{
+    margin-top: 3px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.news-para:hover{
+    color: rgba(0, 0, 0, 0.438);
+    text-shadow: 1px 2px 3px 3px rgb(80, 36, 0);
+}
+
+figcaption{
+    color: rgba(0, 0, 0, 0.479);
+    font-weight: 600;
+}
+
+.btn-news{
+    background-color: blueviolet;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.btn-news:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 4px 2px 5px 5px black;
+}
+
+.gun-div{
+    background-color: rgba(0, 0, 255, 0.589);
+    text-align: center;
+}
+.gunman{
+    width: 100%;
+    height: auto;
+}
+
+.gun-head{
+    color: white;
+    font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+.gun-para{
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 600;
+}
+.gun-btn{
+    margin-bottom: 70px;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.gun-btn:hover{
+    background-color: blueviolet;
+    color:whitesmoke;
+    box-shadow: 4px 2px 5px 5px white;
+}
+
+.career{
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+.career-img{
+    width: 100%;
+    height: auto;
+}
+.car-text{
+    position: absolute;
+    top: 5%;
+    margin: auto;
+    color: whitesmoke;
+}
+.car-head{
+    font-weight: 800;
+    margin-bottom: none;
+}
+.car-para{
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.car-btn{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.car-btn:hover{
+    box-shadow: 2px 3px 5px 5px yellow;
+    background-color: black;
+    color: whitesmoke;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+small{
+    padding-bottom: 10px;
+}
+.foot-img{
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+button * {
+    cursor: pointer;
+}
+.foot-btn{
+    margin-bottom: 20px;
+    background-color: black;
+    color:white;
+    outline: none;
+    width: 30%;
+    text-align: center;
+    font-size: 1.1rem;
+    transition: all .4s ease-in-out;
+}
+.foot-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 1px 2px 5px 5px white;
+}
+.last-foot{
+    margin-bottom: 0;
+}
+@media (min-width:300px) and (max-width:500px){
+    header{
+        background-color:whitesmoke;
+    }
+    .front-image{
+        width: 100%;
+        height: auto;
+        padding-top: 200px;
+    }
+
+    .logo-img{
+        max-width: 30px;
+        height: auto;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all .7s ease-in-out;
+    }
+
+    .main-content{
+        top: 20%;
+        left: 1%;
+    }
+
+    
+    .main-content-heading{
+        font-weight: 800;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    
+    .main-content-para{
+        font-weight: 600;
+        font-size: .7rem;
+        margin-top: 0;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .navi-item{
+        font-size: .5rem;
+        display: inline;
+    }
+    .btn{
+        font-size: .5rem;
+        padding:3px;
+        border-radius: 5px;
+    }
+}
